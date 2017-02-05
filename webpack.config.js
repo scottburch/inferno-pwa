@@ -4,7 +4,9 @@ const webpack = require('webpack');
 module.exports = {
     entry: {
         'core/helpers/logger.js': './src/core/helpers/logger.js',
-        'core/helpers/request.js': './src/core/helpers/request.js'
+        'core/helpers/request.js': './src/core/helpers/request.js',
+        'core/helpers/onEnter.js': './src/core/helpers/onEnter.js',
+        'core/helpers/polyfills.js': './src/core/helpers/polyfills'
     },
     output: {
         filename: 'lib/[name]',
