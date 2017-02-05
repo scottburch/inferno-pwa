@@ -22,6 +22,7 @@
     "debug": "^2.6.0",
     "extract-text-webpack-plugin": "^2.0.0-rc.3",
     "fast-async": "^6.2.0",
+    "isomorphic-fetch": "^2.2.1",
     "promise-polyfill": "^6.0.2",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0"

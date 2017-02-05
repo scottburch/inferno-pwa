@@ -6,7 +6,7 @@ module.exports = {
         'core/helpers/logger.js': './src/core/helpers/logger.js',
         'core/helpers/request.js': './src/core/helpers/request.js',
         'core/helpers/onEnter.js': './src/core/helpers/onEnter.js',
-        'core/helpers/polyfills.js': './src/core/helpers/polyfills'
+        'core/helpers/polyfills.js': './src/core/helpers/polyfills.js'
     },
     output: {
         filename: 'lib/[name]',
