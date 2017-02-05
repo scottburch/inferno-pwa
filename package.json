@@ -1,12 +1,13 @@
 {
-  "name": "inferno-kit",
+  "name": "inferno-pwa",
   "version": "1.0.0",
-  "description": "Inferno starter kit",
+  "description": "Inferno progressive web app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Scott Burch",
+  "repository": "https://github.com/scottburch/inferno-pwa.git",
   "license": "MIT",
   "dependencies": {
     "debug": "^2.6.0",
