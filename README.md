@@ -1,0 +1,1 @@
+Hopefully a npm module to use inferno with mobx to create isomorphic apps
