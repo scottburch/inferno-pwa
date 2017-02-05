@@ -1,2 +1,4 @@
 /node_modules
 .iml
+/lib
+!/lib/core/webpack
