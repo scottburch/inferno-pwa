@@ -6,7 +6,9 @@ module.exports = {
         'core/helpers/logger.js': './src/core/helpers/logger.js',
         'core/helpers/request.js': './src/core/helpers/request.js',
         'core/helpers/onEnter.js': './src/core/helpers/onEnter.js',
-        'core/helpers/polyfills.js': './src/core/helpers/polyfills.js'
+        'core/helpers/polyfills.js': './src/core/helpers/polyfills.js',
+
+        'server/middleware/catcher.js': './src/server/middleware/catcher.js'
     },
     output: {
         filename: 'lib/[name]',
@@ -20,17 +22,7 @@ module.exports = {
                 include: [/src\/core/],
                 query: {
                     cacheDirectory: false,
-                    presets: [],
-                    plugins: [
-                        "add-module-exports",
-                        "transform-es2015-modules-commonjs",
-                        "transform-es2015-destructuring",
-                        "transform-object-rest-spread",
-                        "transform-decorators-legacy",
-                        "transform-class-properties",
-                        "inferno",
-                        ["fast-async"]
-                    ]
+                    presets: []
                 }
             }
         ]
