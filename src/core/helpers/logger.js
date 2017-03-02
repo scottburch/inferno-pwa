@@ -1,9 +1,9 @@
 // Enable logging
-const logger = require('debug')
-const appName = 'app'
+const logger = require('debug');
+const appName = 'app';
 
 // Enable logging
-logger.enable(`${appName}:*,server:*,webpack:*`)
+logger.enable(`${appName}:*,server:*,webpack:*`);
 
 if (!process.env.BROWSER) {
     // You might want to use your own logger here.

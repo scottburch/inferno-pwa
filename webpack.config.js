@@ -19,7 +19,7 @@ module.exports = {
             {
                 test: /\.js$/,
                 loader: 'babel-loader',
-                include: [/src\/core/],
+//                include: [/src\/core/],
                 query: {
                     cacheDirectory: false,
                     presets: []
@@ -27,6 +27,7 @@ module.exports = {
             }
         ]
     },
+    devtool: 'source-map',
 
 
     resolve: {
